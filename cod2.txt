@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dispositivos Electrónicos de Venta</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+      nav {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      }
+      nav a {
+        color: #333;
+        text-decoration: none;
+      }
+      nav a:hover {
+        color: white;
+        background-color: #333;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+      }
+      .col-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 10px;
+      }
+      .card {
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        overflow: hidden;
+        text-align: center;
+      }
+      .card img {
+        max-width: 100%;
+        transition: transform 0.5s;
+      }
+      .card:hover img {
+        transform: scale(1.2);
+      }
+      .card h3 {
+        margin: 20px 0;
+      }
+      .price {
+        font-size: 24px;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Dispositivos Electrónicos de Venta</h1>
+    </header>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Acerca de</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <main>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Producto+1" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <div class="price">$100</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Producto+2" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <div class="price">$200</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x200.png?text=Producto+3" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <div class="price">$300</div>
+          </div>
+        </div>
+        <!-- Agregue más productos aquí -->
+      </div>
+    </main>
+    <footer>
+      <p>Derechos de autor ©

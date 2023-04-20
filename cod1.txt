@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Artículos de Innovación Científica</title>
+  </head>
+  <body>
+    <header>
+      <h1>Artículos de Innovación Científica</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Artículos</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>Título del artículo 1</h2>
+          <p>Fecha de publicación: 19 de abril de 2023</p>
+        </header>
+        <p>Texto del artículo 1...</p>
+        <footer>
+          <p>Etiquetas: etiqueta1, etiqueta2, etiqueta3</p>
+        </footer>
+      </article>
+      <article>
+        <header>
+          <h2>Título del artículo 2</h2>
+          <p>Fecha de publicación: 20 de abril de 2023</p>
+        </header>
+        <p>Texto del artículo 2...</p>
+        <footer>
+          <p>Etiquetas: etiqueta4, etiqueta5, etiqueta6</p>
+        </footer>
+      </article>
+      <!-- Agregue más artículos aquí -->
+    </main>
+    <footer>
+      <p>Derechos de autor © 2023 - Artículos de Innovación Científica</p>
+    </footer>
+  </body>
+</html>
